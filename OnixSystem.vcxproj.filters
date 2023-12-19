@@ -13,10 +13,19 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\src">
+      <UniqueIdentifier>{5b51aebe-ed3d-4a3c-8aa3-e8f11bf9b421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\src\boot">
+      <UniqueIdentifier>{3c1be0ed-cf23-48f8-9d87-280772db054c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="boot.asm">
-      <Filter>源文件</Filter>
+    <None Include="src\boot\boot.asm">
+      <Filter>源文件\src\boot</Filter>
+    </None>
+    <None Include="src\boot\boot.bin">
+      <Filter>源文件\src\boot</Filter>
     </None>
   </ItemGroup>
 </Project>
